@@ -2,35 +2,36 @@
 <html class="no-js" lang="zxx">
 <head>
     <meta charset="utf-8">
-    <title>Interior Consultant</title>
-    <meta name="description" content="Team profile">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="description" content="Interior Consultant page">
+    <title>Interior Consultant</title>
     <!-- Webpage icon -->
     <link rel="shortcut icon" type="image/x-icon" href="./imgs/devchallenges.png">
-
     <!-- CSS here -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- header-start -->
-	<div class="navbar">       
-		<div class="navbar_inner navbar_right">
-			<div class="logo"><span>
-				<div class="rect">
-					<p>This interior</p>
-				</div></span>
+	<div class="container">
+		<div class="logo">
+			<div class="rect">
+				<p>This interior</p>
 			</div>
-			<input type="checkbox" id="navbar_check">
-			<label for="navbar_check" class="navbar_hamburger">☰</label>
-			<div class="navbar_items">
-				<div class="navbar_item"><span><a class="active" href="index.html">Home</a></span></div>
-				<div class="navbar_item"><span><a href="">Collection</a></span></div>
-				<div class="navbar_item"><span><a href="">About</a></span></div>
-				<div class="navbar_item"><span><a href="">Contact</a></span></div>
+		</div>
+		<div class="navbar">
+			<div class="icon-bar" onclick="Show()">
+				<label class="navbar_hamburger">☰</label>
 			</div>
-        </div>
-    </div>
+			<ul id="nav-lists">
+				<li class="close"><span onclick="Hide()">×</span></li>
+				<li class="nav-items1"><a class="active" href="#">Home</a></li>
+				<li class="nav-items"><a href="#">Collection</a></li>
+				<li class="nav-items"><a href="#">About</a></li>
+				<li class="nav-items"><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
     <!-- header-end -->
 	<!-- body start -->
 	<div class="contents">

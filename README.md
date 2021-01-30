@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Interior Consultant inprogress</h1>
+<h1 align="center">Interior Consultant page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://davn-interior-consl.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/DavNt/interior-consultant-pg">
       Solution
     </a>
     <span> | </span>
@@ -36,13 +36,28 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+_DesktopView_
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+![screenshot desktop](./screenshots/desktop.png?raw=true)
+
+_MobileView_
+
+![screenshot mobile](./screenshots/mobile.png?raw=true)
+
+![screenshot mobile](./screenshots/mobilenav.png?raw=true)
+
+
 
 - Where can I see your demo?
-- What was your experience?
+
+    <a href="https://davn-interior-consl.netlify.app">
+      Demo
+    </a>
+
 - What have you learned/improved?
+
+	Improve in responsive design along with Javascript.
+
 - Your wisdom? :)
 
    Experience is gained through doing something.
@@ -51,9 +66,11 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML](https://www.w3schools.com/html/default.asp)
+
+- [CSS](https://www.w3schools.com/css/default.asp)
+
+- [JavaScript](https://www.w3schools.com/js/default.asp)
 
 ## Features
 

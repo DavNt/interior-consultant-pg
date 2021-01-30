@@ -9,7 +9,7 @@ body {
 a {
 	text-decoration: none;
 	color: #FFFFFF;
-	padding: 5px 30px;
+	padding: 5px 40px;
 	cursor: pointer;
 }
 
@@ -37,7 +37,7 @@ a {
 }
 
 .nav-lists, .description p, .profile_details, footer p {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Montserrat;
 	font-style: normal;
 }
 
@@ -47,7 +47,7 @@ a {
 }
 
 .description h1, .profile_info {
-	font-family: 'Lora', serif;
+	font-family: Lora;
 	font-style: normal;
 }
 
@@ -126,6 +126,35 @@ a {
 
 .navbar_hamburger {
 	color: #FFFFFF;
+}
+
+.story{
+	font-weight: 300;
+	margin-top: 20px;
+}
+
+.story_link{
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.profile{
+	background: #181719;
+}
+
+.profile_user{
+	display: flex;
+	background: #181719;
+}
+
+.profile_pic img{
+	border-radius: 50%;
+}
+
+footer {
+	text-align: center;
+	font-weight: 600;
+	line-height: 17px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -209,19 +238,15 @@ a {
 
 	.story{
 		font-size: 14px;
-		font-weight: 300;
 		line-height: 17px;
 		margin-left: 12px;
-		margin-top: 20px;
 		margin-right: 90px;
 	}
 
 	.story_link{
 		font-size: 10px;
-		font-weight: 600;
 		line-height: 22px;
 		margin-left: 12px;
-		margin-top: 20px;
 	}
 
 	.story_link img{
@@ -232,7 +257,6 @@ a {
 	.content_samp{
 		width: 320px;
 		height: 280px;
-		background: #181719;
 	}
 
 	.interior_samp{
@@ -240,7 +264,6 @@ a {
 		margin-top: 40px;
 		margin-left: 0;
 		z-index: 1;
-		background-color: #181719;
 	}
 
 	.interior_samp img{
@@ -254,20 +277,13 @@ a {
 		z-index: 1;
 		margin-left: 52px;
 		margin-top: -50px;
-		background-color: #181719;
 		opacity: 1;
 		position: relative;
-	}
-
-	.profile_user{
-		display: flex;
-		background-color: #181719;
 	}
 
 	.profile_pic img{
 		width: 52px;
 		height: 50px;
-		border-radius: 50%;
 		margin-top: 10px;
 		margin-left: 15px;		
 	}
@@ -298,63 +314,160 @@ a {
 	}
 
 	footer {
-		text-align: center;
-		font-size: 12px;
-		font-weight: 600;
-		line-height: 17px;
+		font-size: 11px;
 		margin-top: 100px;
 	}
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) {
-  .navbar_hamburger {
-    display: none;
-  }
+	a {
+		padding: 5px 20px;
+	}
+
+	.container .logo {
+		margin-left: 20px;
+	}
+
+	.container .navbar {
+		margin-left: 90px;
+	}
+	.description{
+		width: 370px;
+		margin-left: 20px;
+	}
+
+	.description h1{
+		font-size: 30px;
+		line-height: 46px;
+		margin-top: 40px;
+	}
+
+	.story{
+		font-size: 14px;
+		line-height: 17px;
+		margin-right: 90px;
+	}
+
+	.story_link{
+		font-size: 10px;
+		line-height: 22px;
+	}
+
+	.story_link img{
+		width: 12px;
+		height: 12px;
+	}
+
+	.content_samp{
+		width: 490px;
+		height: 450px;
+	}
+
+	.interior_samp{
+		margin-top: 40px;
+		margin-left: 20px;
+		z-index: 1;
+	}
+
+	.interior_samp img{
+		width: 480px;
+		height: 370px;
+	}
+
+	.profile{
+		width: 290px;
+		height: 50px;
+		margin-left: 200px;
+		margin-top: -60px;
+		position: relative;
+	}
+
+	.profile_pic img{
+		width: 52px;
+		height: 50px;
+		margin-top: 10px;
+		margin-left: 15px;		
+	}
+
+	.profile_details h2{
+		font-size: 10px;
+		font-weight: 500;
+		line-height: 15px;
+		margin-top: 11px;
+		margin-left: 15px;
+	}
+
+	.profile_details p{
+		font-size: 9px;
+		font-weight: 500;
+		line-height: 15px;
+		margin-top: 8px;
+		margin-left: 15px;
+	}
+
+	.profile_info p{
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 23px;
+		margin-top: 10px;
+		margin-left: 15px;
+		width: 170px;
+	}
+
+	footer {
+		font-size: 11px;
+		margin-top: 100px;
+	}
 } 
 
 /* Large devices (laptops/desktops, 992px and up)  */
 @media only screen and (min-width: 992px) {
+	a {
+		padding: 5px 40px;
+	}
+
+	.container .logo {
+		margin-left: 57px;
+	}
+
+	.container .navbar {
+		margin-left: 600px;
+	}
+
 	.contents{
 		display: flex;
 	}
 
 	.description{
 		width: 740px;
+		margin-left: 57px;
 	}
 
 	.description h1{
 		font-size: 40px;
 		line-height: 61px;
-		margin-left: 57px;
 		margin-top: 80px;
 	}
 
 	.story{
 		font-size: 18px;
-		font-weight: 300;
 		line-height: 29px;
-		margin-left: 57px;
-		margin-top: 20px;
 		margin-right: 310px;
 	}
 
 	.story_link{
 		font-size: 12px;
-		font-weight: 600;
 		line-height: 22px;
-		margin-left: 57px;
-		margin-top: 20px;
 	}
 
 	.content_samp{
 		width: 680px;
 		height: 560px;
-		background: #181719;
+		margin-right: 57px;
 	}
 
 	.interior_samp{
-		margin-right: 57px;
 		margin-top: 80px;
 		margin-left: 0;
 		position: absolute;
@@ -373,18 +486,11 @@ a {
 		margin-left: 220px;
 		margin-right: 57px;
 		margin-top: 495px;
-		background: #181719;
-	}
-
-	.profile_user{
-		display: flex;
-		background: #181719;
 	}
 
 	.profile_pic img{
 		width: 72px;
 		height: 70px;
-		border-radius: 50%;
 		margin-top: 15px;
 		margin-left: 20px;		
 	}
@@ -415,10 +521,7 @@ a {
 	}
 
 	footer {
-		text-align: center;
-		font-size: 12px;
-		font-weight: 600;
-		line-height: 17px;
+		font-size: 13px;
 		margin-top: 180px;
 	}
 } 

@@ -57,11 +57,8 @@ a {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
 	overflow: hidden;
 }
 
@@ -70,15 +67,8 @@ a {
 }
 
 .container .navbar {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-box-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	padding: 0 10px;
+	margin-left: auto;
 }
 
 .container .navbar ul {
@@ -112,7 +102,7 @@ a {
 }
 
 .container .navbar .icon-bar {
-	padding: 18px 8px;
+	padding: 5px 8px;
 	display: none;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -170,6 +160,7 @@ footer {
 		-webkit-box-pack: justify;
 		-ms-flex-pack: justify;
 		justify-content: space-between;
+		padding-top: 0px;
 	}
 	
 	.container .navbar {
@@ -320,7 +311,7 @@ footer {
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) and (orientation:landscape) {
+@media only screen and (min-width: 768px) {
 	a {
 		padding: 5px 20px;
 	}
@@ -330,7 +321,7 @@ footer {
 	}
 
 	.container .navbar {
-		margin-left: 90px;
+		margin-left: auto;
 	}
 	.description{
 		width: 370px;
@@ -424,7 +415,7 @@ footer {
 /* Large devices (laptops/desktops, 992px and up)  */
 @media only screen and (min-width: 992px) {
 	a {
-		padding: 5px 40px;
+		padding: 5px 60px;
 	}
 
 	.container .logo {
@@ -432,7 +423,7 @@ footer {
 	}
 
 	.container .navbar {
-		margin-left: 500px;
+		margin-left: auto;
 	}
 
 	.contents{
@@ -440,7 +431,7 @@ footer {
 	}
 
 	.description{
-		width: 740px;
+		width: 570px;
 		margin-left: 57px;
 	}
 
@@ -453,7 +444,7 @@ footer {
 	.story{
 		font-size: 18px;
 		line-height: 29px;
-		margin-right: 310px;
+		margin-right: 210px;
 	}
 
 	.story_link{
@@ -464,7 +455,8 @@ footer {
 	.content_samp{
 		width: 680px;
 		height: 560px;
-		margin-right: 57px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.interior_samp{
